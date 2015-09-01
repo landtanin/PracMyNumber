@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         
     } //Increase Button
     
-    
+    func changeLabel(myNumber:Int) -> Void {} //changeLabel
 
     override func viewDidLoad() {
         super.viewDidLoad()
