@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBAction func decreaseButton(sender: AnyObject) {
         
         intNumber -= 1
+        if(intNumber == 0){ intNumber = 10}
         changeLabel(intNumber)
         
     } //Decrease Button
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
     @IBAction func increaseButton(sender: AnyObject) {
         
         intNumber += 1
+        if(intNumber == 11){ intNumber = 1}
         changeLabel(intNumber)
         
     } //Increase Button
