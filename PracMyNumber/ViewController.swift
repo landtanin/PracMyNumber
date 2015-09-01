@@ -11,9 +11,14 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var labelNumber: UILabel!
     
     
+    @IBAction func decreaseButton(sender: AnyObject) {
+    } //Decrease Button
     
+    @IBAction func increaseButton(sender: AnyObject) {
+    } //Increase Button
 
     override func viewDidLoad() {
         super.viewDidLoad()
