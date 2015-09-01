@@ -10,15 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Explicit
+    var intNumber:Int = 1
+    
+    
     
     @IBOutlet weak var labelNumber: UILabel!
     
     
     @IBAction func decreaseButton(sender: AnyObject) {
+        
+        intNumber -= 1
+        
     } //Decrease Button
     
     @IBAction func increaseButton(sender: AnyObject) {
+        
+        intNumber += 1
+        
     } //Increase Button
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
