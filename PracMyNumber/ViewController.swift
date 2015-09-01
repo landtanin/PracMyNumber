@@ -21,12 +21,14 @@ class ViewController: UIViewController {
     @IBAction func decreaseButton(sender: AnyObject) {
         
         intNumber -= 1
+        changeLabel(intNumber)
         
     } //Decrease Button
     
     @IBAction func increaseButton(sender: AnyObject) {
         
         intNumber += 1
+        changeLabel(intNumber)
         
     } //Increase Button
     
