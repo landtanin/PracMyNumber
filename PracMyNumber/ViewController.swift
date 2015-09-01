@@ -30,7 +30,12 @@ class ViewController: UIViewController {
         
     } //Increase Button
     
-    func changeLabel(myNumber:Int) -> Void {} //changeLabel
+    func changeLabel(myNumber:Int) -> Void {
+        
+        //myNumber will change data type from integer to string and show in labelNumber
+        labelNumber.text = String(myNumber) // set text to labelNumber
+    
+    } //changeLabel
 
     override func viewDidLoad() {
         super.viewDidLoad()
